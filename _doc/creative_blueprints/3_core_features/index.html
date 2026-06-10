@@ -1,0 +1,64 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="mb-4">
+      <span class="text-xs font-bold tracking-widest text-indigo-500 uppercase">Core Features</span>
+      <h2 class="text-3xl font-black text-slate-900 mt-1">Built for video-first workflows</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex gap-2 mb-5 flex-wrap">
+      <span class="bg-indigo-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Content Creators</span>
+      <span class="bg-slate-100 text-slate-500 text-xs font-semibold px-3 py-1 rounded-full">Researchers</span>
+      <span class="bg-slate-100 text-slate-500 text-xs font-semibold px-3 py-1 rounded-full">Business Teams</span>
+      <span class="bg-slate-100 text-slate-500 text-xs font-semibold px-3 py-1 rounded-full">Educators</span>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid gap-4 flex-1">
+
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">🎬</div>
+        <div class="text-white font-bold text-sm">Video Upload &amp; URL</div>
+        <div class="text-slate-400 text-xs leading-relaxed">Upload MP4, MOV, AVI or paste any video URL — get started in seconds with no setup</div>
+      </div>
+
+      <div class="bg-indigo-600 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">📝</div>
+        <div class="text-white font-bold text-sm">AI Auto-Transcription</div>
+        <div class="text-indigo-200 text-xs leading-relaxed">Accurate, timestamped speech-to-text with speaker detection and automatic punctuation</div>
+      </div>
+
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">🔍</div>
+        <div class="text-white font-bold text-sm">Smart Analysis</div>
+        <div class="text-slate-400 text-xs leading-relaxed">Topic detection, key moment identification, and sentiment analysis across the full video</div>
+      </div>
+
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">🔎</div>
+        <div class="text-slate-900 font-bold text-sm">Search &amp; Navigate</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Search any word in the transcript and jump directly to that exact moment in the video</div>
+      </div>
+
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">📤</div>
+        <div class="text-slate-900 font-bold text-sm">Export Anywhere</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Download as TXT, SRT, or VTT — or copy to clipboard in one click, ready to use anywhere</div>
+      </div>
+
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-2">
+        <div class="text-xl">✨</div>
+        <div class="text-white font-bold text-sm">AI Summary</div>
+        <div class="text-slate-400 text-xs leading-relaxed">Get a concise auto-generated summary of any video without watching a single second</div>
+      </div>
+
+    </div>
+  </div>
+</section>
