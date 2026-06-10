@@ -1,0 +1,46 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-content { width: 54%; }
+.mode-landscape .sl-visual { width: 46%; height: 100%; }
+.mode-portrait .sl-content { width: 100%; }
+.mode-portrait .sl-visual { width: 100%; flex: 1; }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="sl-layout flex h-full p-10 gap-8">
+
+    <!-- Left: Content -->
+    <div class="sl-content flex flex-col justify-between py-2">
+      <div>
+        <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-600 text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full mb-6">
+          ✦ AI Video Intelligence
+        </div>
+        <h1 class="text-5xl font-black text-slate-900 leading-tight">
+          Every Video.<br/>Every Word.<br/><span class="text-indigo-600">Instantly.</span>
+        </h1>
+        <p class="text-base text-slate-500 mt-5 leading-relaxed" style="max-width:22rem">
+          Upload any video and walk away with a full transcript, smart analysis, and searchable content — powered by AI, ready in minutes.
+        </p>
+        <div class="flex gap-3 mt-7">
+          <span class="bg-slate-900 text-white text-xs font-semibold px-3 py-1 rounded-full">Auto-Transcription</span>
+          <span class="bg-slate-900 text-white text-xs font-semibold px-3 py-1 rounded-full">Smart Analysis</span>
+          <span class="bg-slate-900 text-white text-xs font-semibold px-3 py-1 rounded-full">Export Ready</span>
+        </div>
+      </div>
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-visual rounded-2xl overflow-hidden bg-slate-100 flex-shrink-0">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=sleek+modern+AI+video+analysis+dashboard+with+waveform+visualizer+and+transcript+panel+dark+UI+minimal+clean"
+        alt="Video Analyzer Interface"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
